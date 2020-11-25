@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('contact-us', [EmailContactController::class, 'index'])->name('contact-us');
 Route::post('contact-us', [EmailContactController::class, 'sendEmail'])->name('contact-us-post');
