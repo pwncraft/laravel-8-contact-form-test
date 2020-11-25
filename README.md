@@ -12,6 +12,7 @@ composer dumpautoload -o
 ```
 
 3. Make environment file
+(For Windows replace cp with copy)
 ```
 cp .env.example .env
 ```
