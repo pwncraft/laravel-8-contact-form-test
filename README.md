@@ -2,7 +2,7 @@
 
 1. Clone this repo
 ```
-git clone https://github.com/pwncraft/laravel-8-contact-form-test.git
+git clone https://github.com/pwncraft/laravel-8-contact-form-test.git && cd laravel-8-contact-form-test
 ```
 
 2. Run composer commands
