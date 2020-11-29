@@ -50,7 +50,7 @@
                 <label for="mailMessage">Message</label>
                 <textarea name="mailMessage" id="mailMessage @error('mailMessage') is-invalid @enderror" rows="5" class="form-control" required>{{ old('mailMessage') }}</textarea>
             </div>
-            <button class="btn btn-primary" type="submit">Contact Us</button>
+            <button class="btn btn-primary" type="submit"><i class="far fa-envelope"></i> Contact Us</button>
         </form>
     </div>
 </div>
